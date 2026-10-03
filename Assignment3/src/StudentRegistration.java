@@ -8,5 +8,19 @@ public class StudentRegistration {
     static String examYear;
     static double registrationFee;
     static String gradingPolicy;
+
+    static{
+        System.out.println("  static block");
+        examYear = "2026";
+        registrationFee = 150000;
+        gradingPolicy = "Competency Based Curriculum";
+    }
+
+    {
+        System.out.println("  Instance Initialisation Block");
+        registrationStatus = "Pending Verification";
+        examCentre = "Hoima";
+    }
     
+
 }

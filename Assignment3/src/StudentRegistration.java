@@ -21,6 +21,11 @@ public class StudentRegistration {
         registrationStatus = "Pending Verification";
         examCentre = "Hoima";
     }
-    
+
+    public StudentRegistration(String studentName, String schoolName){
+        System.out.println("  Constructor");
+        this.studentName = studentName;
+        this.schoolName = schoolName;
+    }
 
 }

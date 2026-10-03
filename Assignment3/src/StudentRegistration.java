@@ -28,4 +28,15 @@ public class StudentRegistration {
         this.schoolName = schoolName;
     }
 
+    public void displayStudentInfo(){
+        System.out.println("  STUDENT DETAILS");
+        System.out.println("Name: "+ studentName);
+        System.out.println("School: "+ schoolName);
+        System.out.println("Exam Year: "+ examYear);
+        System.out.println("Fee: "+ registrationFee);
+        System.out.println("Grading: "+gradingPolicy);
+        System.out.println("Status: "+registrationStatus);
+        System.out.println("Centre: "+examCentre);
+    }
+
 }

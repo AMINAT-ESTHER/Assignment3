@@ -15,6 +15,7 @@ public class StudentRegistration {
         registrationFee = 150000;
         gradingPolicy = "Competency Based Curriculum";
         System.out.println("  General Examination Settings: Year = "+ examYear + " Fee = UGX "+ registrationFee +" Grading Policy: "+ gradingPolicy);
+        System.out.println("------------------------------------------------------------");
     }
 
     {
@@ -27,6 +28,7 @@ public class StudentRegistration {
         System.out.println("  Constructor assigning data for "+ studentName);
         this.studentName = studentName;
         this.schoolName = schoolName;
+        System.out.println("---------------------------");
     }
 
     public void displayStudentInfo(){
@@ -35,6 +37,7 @@ public class StudentRegistration {
         System.out.println("School: "+ schoolName);
         System.out.println("Centre: "+examCentre);
         System.out.println("Status: "+registrationStatus);
+        System.out.println("------------------------------");
     }
 
 }
